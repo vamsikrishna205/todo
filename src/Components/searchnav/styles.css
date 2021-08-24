@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+#App_Bar{
+    background-color: white;
+    box-shadow: 0px 0px 0.6px grey;
+}
+#App_Bar2{
+    background-color: white;
+    box-shadow: 0px 0px 0.6px grey;
+}
+.inside_menu{
+    display: flex;
+    align-items: center;
+}
+.menu_image{
+    width: 70px;
+    padding: 14px;
+}
+.Menu_Name{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    margin-right: 30px;
+    padding: 10px;
+}
+#nav_dot{
+    width: 60px;
+    height: 60px;
+    margin-top: 2px;
+    padding-left: 37px;
+}
+#Not_Icon{
+    width: 60px;
+    height: 60px;
+    margin-top: 4px;
+    
+}
+#Set_icon{
+    width: 60px;
+    height: 60px;
+    margin-top: 2px;
+}
+#App_Main{
+    padding: 3px 20px;
+}
+#Hide_icon{
+    color: white;
+}
+#Hide_icon:hover{
+    background-color: white;
+}
+.user_Name{
+    padding: 5px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.MuiBadge-dot{
+    background-color:#0078CE ;
+}
+.MuiBadge-dot{
+    background-color:#0078CE ;
+}
+#blog_3{
+    background-color: #0078CE;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
