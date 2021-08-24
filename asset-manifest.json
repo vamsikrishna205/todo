@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/todo/static/css/main.fb00b37b.chunk.css",
+    "main.js": "/todo/static/js/main.9154ad98.chunk.js",
+    "main.js.map": "/todo/static/js/main.9154ad98.chunk.js.map",
+    "runtime-main.js": "/todo/static/js/runtime-main.387b6480.js",
+    "runtime-main.js.map": "/todo/static/js/runtime-main.387b6480.js.map",
+    "static/js/2.4d568196.chunk.js": "/todo/static/js/2.4d568196.chunk.js",
+    "static/js/2.4d568196.chunk.js.map": "/todo/static/js/2.4d568196.chunk.js.map",
+    "static/js/3.acb8790b.chunk.js": "/todo/static/js/3.acb8790b.chunk.js",
+    "static/js/3.acb8790b.chunk.js.map": "/todo/static/js/3.acb8790b.chunk.js.map",
+    "index.html": "/todo/index.html",
+    "static/css/main.fb00b37b.chunk.css.map": "/todo/static/css/main.fb00b37b.chunk.css.map",
+    "static/js/2.4d568196.chunk.js.LICENSE.txt": "/todo/static/js/2.4d568196.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/todo/static/media/logo.6ce24c58.svg",
+    "static/media/maylee.87d75ce5.png": "/todo/static/media/maylee.87d75ce5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.387b6480.js",
+    "static/js/2.4d568196.chunk.js",
+    "static/css/main.fb00b37b.chunk.css",
+    "static/js/main.9154ad98.chunk.js"
+  ]
+}
