@@ -7,8 +7,16 @@ import PersistentDrawerLeft1 from './Components/searchnav/side_navbar_copy';
 
 function App() {
   return (
-    <div><Todoweb /></div>
+    <div className="App1">
+      <div className="App2">
+        <PersistentDrawerLeft />
+      </div>
+      <div className="App3">
+        <PersistentDrawerLeft1 />
+      </div>
 
+      <div><Todoweb /></div>
+    </div>
   );
 }
 

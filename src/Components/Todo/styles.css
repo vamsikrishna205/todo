@@ -5,9 +5,13 @@
     font-family: 'Roboto', sans-serif;
     border-radius: 20px;
 }
+.Todo_Empty{
+    width:16%;
+}
 .Todo_Content_Container{
+    margin-top: 64px;
     background-color: #F8FAFB;
-    width: 100%;
+    width: 84%;
     padding: 20px;
     position: relative;
     height:100vh;
@@ -202,6 +206,9 @@
 }
 
 @media only screen and (max-width:992px){
+    .Todo_Empty{
+        display: none;
+    }
     .Todo_Content_Container{
         width: -webkit-fill-available;
         left: 0;
@@ -260,7 +267,7 @@
         width: 10%;
     }
     .icons_cont {
-        width: 46%;
+        width: 48%;
     }
     .Todo_Header{
         display: grid;

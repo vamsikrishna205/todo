@@ -24,16 +24,13 @@ const Todoweb = () => {
     }
     return (
         <div class="Todo_Main_Container">
-
+            <div class="Todo_Empty"></div>
             <div class="Todo_Content_Container">
                 <div class="Todo_Header">
                     <div class="list_image"><PlaylistAddCheckRoundedIcon id="list_icon" /></div>
                     <div class="Todo_Head">
                         <div class="Todo_App">To Do Apps</div>
                         <div class="Todo_Subhead">All Your to do list. Just check it whenever You done.</div>
-                    </div>
-                    <div class="Home_tab">
-                        <a class="Home_link" href="https://vamsikrishna205.github.io/outlook/"><Button>Home</Button></a>
                     </div>
                 </div>
                 <div class="input_Container">

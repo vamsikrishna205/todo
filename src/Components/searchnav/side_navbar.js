@@ -34,6 +34,8 @@ import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import DescriptionIcon from '@material-ui/icons/Description';
 import MenuBookRoundedIcon from '@material-ui/icons/MenuBookRounded';
 
+import PlaylistAddCheckRoundedIcon from '@material-ui/icons/PlaylistAddCheckRounded';
+
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
@@ -354,13 +356,24 @@ export default function PersistentDrawerLeft() {
                 </div>
 
                 <List component="nav" aria-label="main mailbox folders">
-                    <ListItem button>
-                        <ListItemIcon>
-                            <DashboardRoundIcon />
-                        </ListItemIcon>
-                        <ListItemText primary="Todo" />
-                    </ListItem>
-
+                    <a class="Home_link" href="https://vamsikrishna205.github.io/outlook/">
+                        <ListItem button>
+                            <ListItemIcon>
+                                <MailOutlineIcon />
+                                <ListItemText id="msg_dot" />
+                            </ListItemIcon>
+                            <ListItemText primary="Messages" />
+                            <ListItemText primary="3" id="blog_3" />
+                        </ListItem>
+                    </a>
+                    <a class="todo_link" href="https://vamsikrishna205.github.io/todo/" styles={{ textDecoration: "auto" }}>
+                        <ListItem button>
+                            <ListItemIcon>
+                                <PlaylistAddCheckRoundedIcon />
+                            </ListItemIcon>
+                            <ListItemText primary="Todo" />
+                        </ListItem>
+                    </a>
                 </List>
                 <Divider />
                 <div className={classes.drawerFooter} >
