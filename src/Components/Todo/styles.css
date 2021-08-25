@@ -5,9 +5,6 @@
     font-family: 'Roboto', sans-serif;
     border-radius: 20px;
 }
-.Todo_Empty{
-    width: 16%;
-}
 .Todo_Content_Container{
     background-color: #F8FAFB;
     width: 100%;
@@ -19,6 +16,10 @@
     display: flex;
     margin-bottom: 40px;
     align-items: center;
+    width: 100%;
+}
+.Home_link{
+    text-decoration: none;
 }
 .list_image{
     width:55px;
@@ -37,6 +38,7 @@
 }
 .Todo_Head{
     padding-left: 20px;
+    width: inherit;
 }
 .Todo_App{
     position: relative;
@@ -259,5 +261,12 @@
     }
     .icons_cont {
         width: 46%;
+    }
+    .Todo_Header{
+        display: grid;
+        text-align: center;
+    }
+    .Todo_Head{
+        padding-left: 0px;
     }
 }
